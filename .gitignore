@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+BlocksPage.css
+BlocksPage.jsx
+.gitignore
 
 # Editor directories and files
 .vscode/*

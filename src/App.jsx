@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Common/Navbar';
 import HeaderSection from './HeaderSection/HeaderSection';
 import HeroSection from './HeroSection/HeroSection';
 import Footer from './Common/Footer/Footer';
@@ -10,6 +9,7 @@ import Home from './Components/Home/Home';
 import Demo from './Common/DemoForm/Demo';
 import Login from './Common/Login/Login';
 import BlocksPage from './Components/Blocks-Page/BlocksPage';
+import Navbar from './Common/Navbar/Navbar';
 
 function App() {
   const location = useLocation();
