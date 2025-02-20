@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import "./HeroSection.css";
+import "./Herosection.css";
 import Heroimg from "../assets/HeroPage/heroimg.png";
 function HeroSection() {
   return (
