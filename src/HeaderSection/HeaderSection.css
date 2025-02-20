@@ -1,0 +1,36 @@
+.trial-button {
+  padding-block: 5px !important;
+  border-radius: 32px !important;
+  background-color: black;
+  padding-inline: 12px;
+}
+.hero-h1 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  font-size: 88px;
+  line-height: 88px;
+}
+.hero-p {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(87, 87, 87);
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .hero-image-container {
+    margin: 0 auto; /* Center the image container */
+    max-width: 800px; /* Set a maximum width for the image */
+    width: 100%; /* Ensure it takes full width up to the max-width */
+  }
+  
+  /* Styling for the image */
+  .hero-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  
