@@ -8,7 +8,7 @@ import Footer from './Common/Footer/Footer';
 import Home from './Components/Home/Home';
 import Demo from './Common/DemoForm/Demo';
 import Login from './Common/Login/Login';
-import BlocksPage from './Components/Blocks-Page/BlocksPage';
+// import BlocksPage from './Components/Blocks-Page/BlocksPage';
 import Navbar from './Common/Navbar/Navbar';
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/demo" element={<Demo/>} />
         <Route path="/login" element={<Login/> } />
-        <Route path="/blockspage" element={ <BlocksPage />  } />
+        {/* <Route path="/blockspage" element={ <BlocksPage />  } /> */}
 
        
       </Routes>
