@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import "./headerSection.css";
+import "./HeaderSection.css";
 import emailimg from "../assets/HomePage/home.jpg";
 
 const HeaderSection = () => {
